@@ -18,25 +18,24 @@ showMenu.onclick = () => {
 closeMenu.onclick = () => {
 	mobileNav.classList.remove("show-nav");
 };
-
 closeMenu.onclick = () => {
 	mobileNav.classList.remove("show-nav");
 	features.classList.remove("show");
 	featuresArrowDown.classList.remove("hide");
-	featuresArrowUp.classList.remove("show");
+	featuresArrowUp.classList.remove("show-arrow");
 	company.classList.remove("show");
 	companyArrowDown.classList.remove("hide");
-	companyArrowUp.classList.remove("show");
+	companyArrowUp.classList.remove("show-arrow");
 };
 
 featuresClick.onclick = () => {
 	features.classList.toggle("show");
 	featuresArrowDown.classList.toggle("hide");
-	featuresArrowUp.classList.toggle("show");
+	featuresArrowUp.classList.toggle("show-arrow");
 };
 
 companyClick.onclick = () => {
 	company.classList.toggle("show");
 	companyArrowDown.classList.toggle("hide");
-	companyArrowUp.classList.toggle("show");
+	companyArrowUp.classList.toggle("show-arrow");
 };
